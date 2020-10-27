@@ -1,0 +1,13 @@
+body {
+    background-color:rgba(68, 59, 42, 0.575);
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h1, h2 {
+    font-family: Arial, 'Arial Black', Verdana, 'Trebuchet MS',Georgia, Tahoma, 'Courier 
+    New', 'T'imes New Roman';
+    color: rgb(113, 158, 226);
+}
