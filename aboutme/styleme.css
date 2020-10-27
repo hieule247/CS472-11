@@ -7,7 +7,6 @@ h1 {
 }
 
 h1, h2 {
-    font-family: Arial, 'Arial Black', Verdana, 'Trebuchet MS',Georgia, Tahoma, 'Courier 
-    New', 'Times New Roman';
+    font-family: Arial, "Arial Black", Verdana, "Trebuchet MS", Georgia, Tahoma;
     color: rgb(113, 158, 226);
 }
