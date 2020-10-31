@@ -1,0 +1,45 @@
+header {
+    font-weight: bold;
+    background-color: rgb(7, 134, 128);
+    padding: 10px;
+}
+
+table {
+    width:100%;
+}
+
+tr {
+    height: 40px;
+}
+
+#headerText {
+    padding-right: 30px;
+}
+
+.labelUnderLine {
+    text-decoration: underline;
+}
+
+.labelBold {
+    font-weight: bold;
+}
+
+.colorRed {
+    color: red;    
+}
+
+.inputWidth {
+    width: 190px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(235, 223, 223);
+    padding: 10px;
+}
+
+.btnStyle {
+    width: 80px;
+    height: 25px;
+    background-color:  rgb(7, 134, 128);
+}

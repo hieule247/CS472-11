@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html language="en">
+    <head>
+        <title>Le Hieu Le - Workshop Registration</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <span id="headerText">Workshop Registration</span>
+            <select>
+                <option>More Action</option>
+            </select>
+        </header>
+        <!-- Body -->
+        <p class="labelUnderLine">Register now while seats are available!</p>
+    <form>
+        <table>
+            <tr>
+                <td class="labelBold">First Name <label class="colorRed">*</label></td>
+                <td><input class="inputWidth isRequired" type="text" name="firstName" required></td>
+                <td><label class="labelUnderLine">Lunch</label></td>
+            </tr>
+            <tr>
+                <td class="labelBold">Last Name <label class="colorRed">*</label></td>
+                <td><input class="inputWidth" type="text" name="lastName" required></td>
+                <td class="labelBold">Meal Preference</td>
+                <td>
+                    <select class="inputWidth">
+                        <option>Vegetarian</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="labelBold">Company/Institution <label class="colorRed">*</label></td>
+                <td><input class="inputWidth" type="text" name="company" required></td>
+                <td><label class="labelUnderLine">Payment Details</label></td>
+            </tr>
+            <tr>
+                <td class="labelBold">Address <label class="colorRed">*</label></td>
+                <td><textarea class="inputWidth" required></textarea></td>
+                <td class="labelBold"><label>Payment Mode</label></td>
+                <td>
+                    <input type="checkbox" value="cash" name="cash">Cash<br>
+                    <input type="checkbox" value="check" name="check">Cheque<br>
+                    <input type="checkbox" value="demanddraft" name="demanddraft"> Demand Draft
+                </td>
+            </tr>
+            <tr>
+                <td class="labelBold">City</td>
+                <td><input class="inputWidth" type="text" name="city"></td>
+                <td class="labelBold">DD/Cheque no.</td>
+                <td><input class="inputWidth" type="text" name="chequeno"></td>
+            </tr>
+            <tr>
+                <td class="labelBold">State/Province/Region</td>
+                <td>
+                    <select class="inputWidth" >
+                        <option>-Select-</option>
+                    </select>
+                </td>
+                <td class="labelBold">Draw On (Bank Name)</td>
+                <td><input class="inputWidth" type="text" name="bankname"></td>
+            </tr>
+            <tr>
+                <td class="labelBold">Country</td>
+                <td>
+                    <select class="inputWidth">
+                        <option>-Select-</option>
+                    </select>
+                </td>
+                <td class="labelBold">Payable at</td>
+                <td><input class="inputWidth" type="text" name="bankname"></td>
+            </tr>
+            <tr>
+                <td class="labelBold">Email <label class="colorRed">*</label></td>
+                <td><input class="inputWidth" type="text" name="email" required></td>
+            </tr>
+            <tr>
+                <td class="labelBold">Phone Number <label class="colorRed">*</label></td>
+                <td><input class="inputWidth" type="text" name="phonenumber" required></td>
+            </tr>
+        </table>
+        <!-- Footer --> 
+        <footer>
+            <input type="submit" value="Submit" class="btnStyle"></input>
+            <input type="reset" value="Reset" class="btnStyle"></input>
+        </footer>
+    </form>
+</body>
+</html>
